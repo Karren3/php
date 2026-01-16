@@ -62,7 +62,6 @@ body {
     padding: 40px 32px 32px 70px;
     border-radius: 18px;
 
-    /* Notebook paper effect */
     background-color: #fffdf9;
     background-image:
         linear-gradient(to bottom, rgba(87,73,100,0.15) 1px, transparent 1px),
@@ -72,7 +71,6 @@ body {
     box-shadow: 0 25px 45px rgba(0,0,0,0.35);
 }
 
-/* Notebook margin line */
 .card::before {
     content: "";
     position: absolute;
@@ -89,7 +87,7 @@ h2 {
     margin-bottom: 28px;
 }
 
-/* Add section */
+
 .add {
     display: flex;
     gap: 12px;
@@ -117,7 +115,7 @@ h2 {
     cursor: pointer;
 }
 
-/* Table */
+
 table {
     width: 100%;
     border-collapse: collapse; /* true table grid */
